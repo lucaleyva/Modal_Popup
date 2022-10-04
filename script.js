@@ -6,3 +6,9 @@ const modal = document.querySelector('.modal'),
 btn.addEventListener('click', openModal);
 close.addEventListener('click', closeModal);
 modal.addEventListener('click', closeModal);
+
+// OPEN MODAL
+function openModal(e) {
+  e.preventDefault();
+  modal.style.display = 'block';
+}

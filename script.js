@@ -12,3 +12,8 @@ function openModal(e) {
   e.preventDefault();
   modal.style.display = 'block';
 }
+
+// CLOSE MODAL
+function closeModal(e) {
+  modal.style.display = 'none';
+}

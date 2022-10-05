@@ -128,3 +128,7 @@ form button:hover {
         transform: translateY(-50rem);
     }
 }
+
+.disclaimer {
+    font-size: 1.25rem;
+}
